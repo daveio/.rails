@@ -1,26 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './app/views/**/*.html.erb',
-    './app/helpers/**/*.rb',
-    './app/javascript/**/*.js',
-    './app/assets/stylesheets/**/*.css',
+    "./app/views/**/*.html.erb",
+    "./app/helpers/**/*.rb",
+    "./app/javascript/**/*.js",
+    "./app/assets/stylesheets/**/*.css",
   ],
   theme: {
     extend: {},
   },
   plugins: [
-    require('daisyui'),
-    require('@catppuccin/tailwindcss')({
-      defaultFlavour: 'frappe'
-    })
+    require("daisyui"),
+    require("@catppuccin/tailwindcss")({
+      defaultFlavour: "frappe",
+    }),
   ],
   daisyui: {
     themes: [
       "light",
       "dark",
       {
-        "catppuccin": require('@catppuccin/daisyui').frappe
+        catppuccin: require("@catppuccin/daisyui").frappe,
       },
       {
         synthwave84: {
@@ -55,13 +55,13 @@ module.exports = {
           "warning-content": "#2a2139",
 
           error: "#f97e72",
-          "error-content": "#ffffff"
-        }
-      }
+          "error-content": "#ffffff",
+        },
+      },
     ],
     darkTheme: "dark",
     base: true,
     styled: true,
     utils: true,
   },
-}
+};

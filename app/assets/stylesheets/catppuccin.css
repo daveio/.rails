@@ -200,7 +200,11 @@
 }
 
 :root[data-theme="catppuccin"] .alert-info {
-  background-color: color-mix(in srgb, var(--ctp-frappe-sky) 12%, var(--ctp-frappe-crust));
+  background-color: color-mix(
+    in srgb,
+    var(--ctp-frappe-sky) 12%,
+    var(--ctp-frappe-crust)
+  );
   border-color: var(--ctp-frappe-sky);
 }
 
@@ -210,7 +214,11 @@
 }
 
 :root[data-theme="catppuccin"] .alert-success {
-  background-color: color-mix(in srgb, var(--ctp-frappe-green) 12%, var(--ctp-frappe-crust));
+  background-color: color-mix(
+    in srgb,
+    var(--ctp-frappe-green) 12%,
+    var(--ctp-frappe-crust)
+  );
   border-color: var(--ctp-frappe-green);
 }
 
@@ -220,7 +228,11 @@
 }
 
 :root[data-theme="catppuccin"] .alert-warning {
-  background-color: color-mix(in srgb, var(--ctp-frappe-yellow) 12%, var(--ctp-frappe-crust));
+  background-color: color-mix(
+    in srgb,
+    var(--ctp-frappe-yellow) 12%,
+    var(--ctp-frappe-crust)
+  );
   border-color: var(--ctp-frappe-yellow);
 }
 
@@ -230,7 +242,11 @@
 }
 
 :root[data-theme="catppuccin"] .alert-error {
-  background-color: color-mix(in srgb, var(--ctp-frappe-red) 12%, var(--ctp-frappe-crust));
+  background-color: color-mix(
+    in srgb,
+    var(--ctp-frappe-red) 12%,
+    var(--ctp-frappe-crust)
+  );
   border-color: var(--ctp-frappe-red);
 }
 
@@ -263,7 +279,8 @@
 :root[data-theme="catppuccin"] .select:focus,
 :root[data-theme="catppuccin"] .textarea:focus {
   border-color: var(--ctp-frappe-blue);
-  box-shadow: 0 0 0 2px color-mix(in srgb, var(--ctp-frappe-blue) 20%, transparent);
+  box-shadow: 0 0 0 2px
+    color-mix(in srgb, var(--ctp-frappe-blue) 20%, transparent);
 }
 
 :root[data-theme="catppuccin"] .input-bordered,
@@ -379,11 +396,19 @@
 }
 
 :root[data-theme="catppuccin"] .table tr:nth-child(even) {
-  background-color: color-mix(in srgb, var(--ctp-frappe-surface0) 40%, transparent);
+  background-color: color-mix(
+    in srgb,
+    var(--ctp-frappe-surface0) 40%,
+    transparent
+  );
 }
 
 :root[data-theme="catppuccin"] .table-zebra tbody tr:nth-child(even) {
-  background-color: color-mix(in srgb, var(--ctp-frappe-surface0) 60%, transparent);
+  background-color: color-mix(
+    in srgb,
+    var(--ctp-frappe-surface0) 60%,
+    transparent
+  );
 }
 
 /* Progress bar */
